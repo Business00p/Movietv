@@ -989,7 +989,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [[
 			InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer')
 		],[
-			InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='Source')
+			InlineKeyboardButton('Youtube 📱', callback_data='Source')
                 ],[
                         InlineKeyboardButton('My Developers 😎',callback_data='mydevelopers')
 		],[
@@ -998,11 +998,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @TvShOw076\n👨‍💻 @AmritAm0\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @TvShow_Devloper\n👨‍💻 @Am\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('youtube', url='https://youtube.com/@techbro-kd8yk?si=SP8wOC697igtT2vF')
+            InlineKeyboardButton('youtube Channel', url='https://youtube.com/@techbro-kd8yk?si=SP8wOC697igtT2vF')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
@@ -1038,7 +1038,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
+            media="https://envs.sh/oF6.jpg",
             caption=script.GROUP_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
