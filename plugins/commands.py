@@ -185,7 +185,7 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
-                        ],[InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url="https://youtube.com/@techbro-kd8yk")
+                        ],[InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎 ', url="https://youtube.com/@techbro-kd8yk")
                           ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgUAAxkBAAENb2VneAkVHNS8pniBXYAUrimVwsXHegAC2BEAAgTSiFULsdpgjzpaqTYE") 
@@ -215,7 +215,7 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
-                        ],[InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url="https://youtube.com/@techbro-kd8yk")
+                        ],[InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url="https://youtube.com/@techbro-kd8yk")
                           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAENb2VneAkVHNS8pniBXYAUrimVwsXHegAC2BEAAgTSiFULsdpgjzpaqTYE") 
@@ -278,7 +278,7 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
-                        ],[InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url="https://youtube.com/@techbro-kd8yk")
+                        ],[InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url="https://youtube.com/@techbro-kd8yk")
                           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
