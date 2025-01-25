@@ -184,7 +184,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            InlineKeyboardButton('Movie Channel⚡', url="https://t.me/publicgood12")
                         ],[InlineKeyboardButton('▶sᴜʙsᴄʀɪʙᴇ 𝚈𝚘𝚞𝚝𝚞𝚋𝚎 channel🚩', url="https://youtube.com/@techbro-kd8yk")
                           ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
@@ -214,7 +214,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            InlineKeyboardButton('Movie Channel⚡', url="https://t.me/publicgood12")
                         ],[InlineKeyboardButton('▶sᴜʙsᴄʀɪʙᴇ 𝚈𝚘𝚞𝚝𝚞𝚋𝚎 channel🚩', url="https://youtube.com/@techbro-kd8yk")
                           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -277,7 +277,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            InlineKeyboardButton('Movie Channel⚡', url="https://t.me/publicgood12")
                         ],[InlineKeyboardButton('▶sᴜʙsᴄʀɪʙᴇ 𝚈𝚘𝚞𝚝𝚞𝚋𝚎 channel🚩', url="https://youtube.com/@techbro-kd8yk")
                           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
